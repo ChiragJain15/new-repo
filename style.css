@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+main {
+    width: 80%;
+    height: 100vh;
+    background-color: #121212;
+    display: grid;
+    grid-template: repeat(1fr, 12);
+    grid-gap: 1rem;
+}
+
+.sample{
+    justify-content: space-between;
+    color: rgba(255,255,255,1);
+}
